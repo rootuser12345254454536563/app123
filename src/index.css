@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-primary: #0F2C59;
+    --navy-dark: #091A36;
+    --navy-container: #DBEAFE;
+    --accent-blue: #0284C7;
+    --amber-gold: #D97706;
+    --whatsapp-green: #25D366;
+    --discount-red: #E11D48;
+    --slate-bg: #F8FAFC;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Tamil', 'Noto Sans Sinhala', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar for clean horizontal chips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
